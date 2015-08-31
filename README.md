@@ -23,7 +23,7 @@ $ cd linux-4.1.6_mwifiex_usb
 
 $ make oldconfig
 
-$ fakeroot make-kpkg --initrd kernel_image kernel_headers --append_to_version=4.1.6-mwiflex-usb --revision=1 -j 5
+$ fakeroot make-kpkg --initrd kernel_image kernel_headers --append_to_version=4.1.6-mwifiex-usb --revision=1 -j 5
 
 
 The attached deb files were compiled under Debian8.1 jessie 64bit
