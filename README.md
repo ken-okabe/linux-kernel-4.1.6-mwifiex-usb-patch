@@ -17,7 +17,7 @@ the file path
 
 $ sudo apt install kernel-package
 
-$ cp /boot/config-<current-kernel-version> linux-4.1.6_mwifiex_usb/.config
+$ cp /boot/config-current-kernel-version linux-4.1.6_mwifiex_usb/.config
 
 $ cd linux-4.1.6_mwifiex_usb
 
