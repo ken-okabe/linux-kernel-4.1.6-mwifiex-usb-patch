@@ -1,4 +1,4 @@
-# linux-kernel-4.1.6-mwiflex-usb-patch
+# linux-kernel-4.1.6-mwifiex-usb-patch
 
 [Bug 69661 - mwifiex_usb on MS Surface Pro 1 is unstable](https://bugzilla.kernel.org/show_bug.cgi?id=69661) patch applied kernel how to
 
