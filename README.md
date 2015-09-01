@@ -17,13 +17,21 @@ the file path
 
 $ sudo apt install kernel-package
 
-$ cp /boot/config-current-kernel-version linux-4.1.6_mwifiex_usb/.config
+create a working dir
 
-$ cd linux-4.1.6_mwifiex_usb
+$ mkdir linux-4.1.6_mwifiex
+
+copy the whole files to the working dir
+
+$ cp /boot/config-current-kernel-version linux-4.1.6_mwifiex/.config
+
+move to the working dir
+
+$ cd linux-4.1.6_mwifiex
 
 $ make oldconfig
 
-$ fakeroot make-kpkg --initrd kernel_image kernel_headers --append_to_version=4.1.6-mwifiex-usb --revision=1 -j 5
+$ fakeroot make-kpkg --initrd kernel_image kernel_headers --append_to_version=4.1.6-mwifiex --revision=1 -j 5
 
 
 The attached deb files were compiled under Debian8.1 jessie 64bit
